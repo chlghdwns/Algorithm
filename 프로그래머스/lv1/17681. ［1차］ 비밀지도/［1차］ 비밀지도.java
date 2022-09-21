@@ -1,7 +1,6 @@
 class Solution {
     public String[] solution(int n, int[] arr1, int[] arr2) {
         String[] answer = new String[arr1.length];
-        String[] temp = new String[arr1.length];
 
         for (int i = 0; i < arr1.length; i++) {
             if (answer[i] == null) {
